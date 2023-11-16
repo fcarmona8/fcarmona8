@@ -1,7 +1,9 @@
 <h1 align="center">Hola 👋, mi nombre es Ferran Carmona</h1>
 <h3 align="center">Soy estudiante de desarrollo de aplicaciones web</h3>
 
-- Portfolio: https://fcarmona8.github.io/fcarmona8/
+
+
+- https://fcarmona8.github.io/fcarmona8/[Enlace al portfolio]
 
 ## Tecnologías y Herramientas
 
