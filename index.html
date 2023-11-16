@@ -1,0 +1,102 @@
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  
+  </head>
+  <body>
+	<div class="wrapper">
+	  <header>
+		<nav class="navbar">
+		  <div class="brand">
+			<h2>F<span>C</span></h2>
+		  </div>
+		  <ul class="menu">
+			<li><a href="#quien-soy">Quien Soy</a></li>
+			<li><a href="#portfolio">Portafolio</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  <main class="main" id="quien-soy">
+		<div class="info-content">
+		  <h1>Soy <span>Ferran</span> Carmona</h1>
+		   <p>Actualmente, soy estudiante del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web en el Instituto Nicolau Copèrnic de Terrassa.
+</p>
+		</div>
+	  </main>
+	</div>
+	  <div class="portfolio" id="portfolio">
+		<div class="portfolio-heading">
+		  <h2>Mi Portfolio</h2>
+		  <div class="divider"></div>
+		</div>
+		<div class="container">
+		  <div class="card">
+			<div class="card__title">
+			  <h2>Proyecto de aplicacion web para la creación de presentaciones</h2>
+			</div>
+			<div class="card__proyect-links">
+			  
+			</div>
+			<div class="button-content">
+			  <button class="project-details-button download-cv">
+				<a href="https://github.com/fcarmona8/Slides">Link al proyecto</a>
+			  </button>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card__title">
+			  <h2>Proyecto de Angular sobre la administración de una empresa</h2>
+			</div>
+			<div class="card__proyect-links">
+			  
+			</div>
+			<div class="button-content">
+			  <button class="project-details-button download-cv">
+				<a href="https://github.com/fcarmona8/angular-adv">Link al proyecto</a>
+			  </button>
+			</div>
+			</div>
+		  <div class="card">
+			<div class="card__title">
+			  <h2>Backend del proyecto de Angular, desarrollado con nodeJS</h2>
+			</div>
+			<div class="card__proyect-links">
+			</div>
+			<div class="button-content">
+			  <button class="project-details-button download-cv">
+				<a href="https://github.com/fcarmona8/admin-pro-backend">Link al proyecto</a>
+			  </button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	
+	  <footer class="footer"> 
+		<div class="footer-content">
+		  <h2>Ferran Carmona</h2>
+		  <h5>Estudiante de desarrollo web</h5>
+		</div>
+		<div class="sotial-networks">
+		  <i class="fab fa-instagram"></i>
+		  <i class="fab fa-linkedin"></i>
+		  <i class="fab fa-twitter-square"></i>
+		</div>
+	  </footer>
+	  <script>
+        // Código JavaScript para el desplazamiento suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+	</body>
