@@ -3,7 +3,7 @@
 
 
 
-- Portafolio: [Enlace a tu Portafolio](https://fcarmona8.github.io/fcarmona8/)
+- Portafolio: [Enlace al Portafolio](https://fcarmona8.github.io/fcarmona8/)
 
 ## Tecnologías y Herramientas
 
