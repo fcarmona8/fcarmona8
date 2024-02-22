@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: monospace;
   background-color:#121529 ;
 }
 
@@ -64,11 +64,11 @@ body {
 
 
 .main {
-  margin: 0px 200px;
+  padding: 0px 200px;
   width: 87vw;
   height: 61vh;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
   gap: 2em;
 }
@@ -86,7 +86,8 @@ h1 {
   background-color: aqua;
   border: none;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: auto;
+  margin-bottom: 10px;
   cursor: pointer;
   -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
   -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
@@ -98,11 +99,10 @@ h1 {
   box-shadow: none;
 }
 
-.main img {
+.aboutMe img {
   border:  7px solid aqua;
   width: 350px;
   height: 520px;
-  z-index: 1;
 }
 
 .about {
@@ -147,7 +147,6 @@ h1 {
 }
 
 .portfolio-heading {
-  width: 100vw;
   margin-left: 55px;
   background-color:#121529;
   display: flex;
@@ -164,19 +163,22 @@ h1 {
 }
 
 .portfolio .container {
-  width: 80vw;
-  height: 25vh;
+  width: 70vw;
+  height: auto;
   background-color: 121529;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 300px;
+  width: calc(48% - 1rem);
   background-color: #2b3058;
   margin: 1em;
+  border-radius: 16px;
+  height: 400px;
 }
 
 .card__img {
@@ -187,8 +189,8 @@ h1 {
 }
 
 .card__title {
-  padding: 20px;
-  height: 170px;
+  padding: 30px 20px 10px;
+  height: 120px;
 }
 
 .card__proyect-links {
@@ -207,7 +209,8 @@ h1 {
 .button-content {
   display: flex;
   justify-content: center;
-  margin: 1em;
+  margin: auto 1em 1rem;
+  
 }
 
 .project-details-button a {
@@ -304,7 +307,6 @@ h1 {
 }
 
 .portfolio-heading {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -317,32 +319,11 @@ h1 {
   font-size: 2.5em;
   color: #fff;
 }
-
-.portfolio .container {
-  width: 80vw;
-  height: 25vh;
-  background-color: 121529;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card {
-  width: 300px;
-  background-color: #2b3058;
-  margin: 1em;
-}
-
 .card__img {
   width: 100%;
   height: 150px;
   background-image: url(../img/2-original.png);
   background-size: cover;
-}
-
-.card__title {
-  padding: 20px;
 }
 
 .card__proyect-links {
@@ -358,16 +339,6 @@ h1 {
   font-size: 1.5em;
 }
 
-.button-content {
-  display: flex;
-  justify-content: center;
-  margin: 1em;
-}
-
-.project-details-button a {
-  text-decoration: none;
-  color: #191c32;
-}
 
 .contact-section {
   padding: 3em;
@@ -449,4 +420,34 @@ h1 {
 
 .sotial-networks i {
   font-size: 1.5em;
+}
+
+.dualDiv{
+  background-color: #191d31;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+
+p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.aboutMe {
+  display: flex;
+  grid-template-columns: 3fr 1fr;
+}
+
+img{
+  width: 430px;
+  height: 100%;
+  object-fit: cover;
+  margin: auto 80px;
+}
+
+.cardText{
+  padding:0px 20px;
+  height: 220px;
 }
