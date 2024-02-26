@@ -1,0 +1,134 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfoli Ferran Carmona</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+</head>
+
+<body>
+    <div class="wrapper noHeight">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>F<span>C</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Volver</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </div>
+    <div id="dual" class="dualDiv fondoOscuro">
+        <div class="portfolio dualDiv fondoOscuro aboutMe">
+            <div class="portfolio-heading aprendizaje">
+                <h2>Aprendizaje del ciclo (DAW)</h2>
+                <div class="divider"></div>
+                <p class="">
+                    Durante el transcurso de los proyectos del segundo año del Ciclo Formativo de Desarrollo de
+                    Aplicaciones
+                    Web (DAW), he adquirido una amplia gama de habilidades y conocimientos fundamentales en el campo del
+                    desarrollo web. Estas experiencias prácticas no solo han fortalecido mi comprensión teórica, sino
+                    que
+                    también me han proporcionado una base sólida para enfrentar desafíos reales en el mundo laboral.
+                    <br><br>
+                </p>
+                <ul class="toolList">
+                    <li><strong>Git:</strong><br>
+                        Aprendí a utilizar Git como un sistema de control de versiones distribuido, permitiéndome
+                        colaborar
+                        de manera eficiente en proyectos de desarrollo de software. A través de la creación y gestión de
+                        repositorios, así como el uso de ramas y fusiones.</li>
+                    <br>
+                    <li><strong>JavaScript (JS):</strong><br>
+                        Con JavaScript, he adquirido habilidades en la
+                        manipulación del DOM, la gestión de eventos, y el uso de estructuras de datos y algoritmos para
+                        crear funcionalidades avanzadas y experiencias de usuario enriquecidas.</li>
+
+                    <br>
+                    <li> <strong>HTML y CSS:</strong><br>
+                        HTML y CSS son los pilares fundamentales del desarrollo web. He aprendido a estructurar y
+                        diseñar
+                        páginas web utilizando HTML para la marcación semántica y CSS para la estilización y
+                        presentación.
+                    </li>
+                    <br>
+
+                    <li>
+                        <strong>PHP y Laravel:</strong><br>
+                        Con PHP, he explorado el desarrollo del lado del servidor, permitiéndome crear aplicaciones web
+                        dinámicas y escalables. Además, he trabajado con el framework Laravel, que proporciona
+                        herramientas
+                        poderosas para simplificar el desarrollo web y seguir las mejores prácticas de arquitectura MVC
+                        (Modelo-Vista-Controlador).
+                    </li>
+                    <br>
+
+                    <li><strong>Figma:</strong><br>
+                        Figma ha sido una herramienta para el diseño de interfaces de usuario y prototipado
+                        interactivo. A través de su plataforma basada en la nube, he podido colaborar eficientemente en
+                        el
+                        diseño de proyectos web.</li>
+                    <br>
+
+                    <li>
+                        <strong>Trello:</strong><br>
+                        Trello es una herramienta de gestión de proyectos que he utilizado para organizar tareas,
+                        asignar
+                        responsabilidades y hacer un seguimiento del progreso en los proyectos de desarrollo web. Su
+                        sistema
+                        de tableros, listas y tarjetas ha facilitado la planificación y coordinación del trabajo en
+                        equipo.
+                    </li>
+
+                    <br>
+
+
+                </ul>
+
+                <br>
+                <p>
+                En resumen, los proyectos del segundo año de DAW me han proporcionado una experiencia práctica
+                invaluable, permitiéndome desarrollar habilidades técnicas y competencias profesionales esenciales
+                para mi futura carrera en el campo del desarrollo de aplicaciones web. Estoy entusiasmado por seguir
+                ampliando mis conocimientos y enfrentar nuevos desafíos en este apasionante campo.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Ferran Carmona</h2>
+            <h5>Estudiante de desarrollo web</h5>
+        </div>
+        <div class="sotial-networks">
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </footer>
+    <script>
+        // Código JavaScript para el desplazamiento suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        let lang = 'es'; // Por defecto, el idioma es español
+
+        // Función para cambiar el idioma
+        function changeLanguage() {
+            // Alternar entre español y catalán
+            lang = (lang === 'es') ? 'ca' : 'es';
+
+            // Mostrar el contenido correspondiente al idioma seleccionado y ocultar el otro
+            document.getElementById('es').style.display = (lang === 'es') ? 'block' : 'none';
+            document.getElementById('ca').style.display = (lang === 'ca') ? 'block' : 'none';
+        }
+    </script>
+</body>
