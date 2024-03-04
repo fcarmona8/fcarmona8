@@ -543,3 +543,11 @@ img{
 #next:hover{
   opacity: 1;
 }
+
+details{
+  padding: 2px;
+}
+
+details:hover {
+  cursor: pointer;
+}
