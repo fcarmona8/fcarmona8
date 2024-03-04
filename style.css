@@ -551,3 +551,20 @@ details{
 details:hover {
   cursor: pointer;
 }
+
+.videoDiv {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.video {
+  margin: 0 auto;
+}
+
+.dualTexto{
+  margin-bottom: 50px;
+}
