@@ -447,8 +447,8 @@ img{
   width: 430px;
   height: 100%;
   object-fit: cover;
-  margin: auto 80px auto 150px;
-  
+  margin: auto 80px auto 10rem;
+
 }
 
 .cardText{
@@ -568,4 +568,8 @@ details:hover {
 
 .dualTexto{
   margin-bottom: 50px;
+}
+
+#dualDivText{
+  padding-right: 10rem !important;
 }
