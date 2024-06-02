@@ -573,3 +573,6 @@ details:hover {
 #dualDivText{
   padding-right: 10rem !important;
 }
+
+.dualButton{
+  width: 308px;
